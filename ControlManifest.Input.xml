@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="crm" constructor="MultiFilePreviewControl" version="0.0.1" display-name-key="MultiFilePreviewControl" description-key="MultiFilePreviewControl description" control-type="standard" >
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="Single" display-name-key="Single" description-key="Single" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="recordId" display-name-key="recordId bind" description-key="Current record Id bind" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="childEntityName" display-name-key="Child Entity logical Name" description-key="Child Enity logical name" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="childEntitypluralName" display-name-key="Child Entity plural logical Name" description-key="Child entity plural logical name" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="Primaryfield" display-name-key="field name of child entity" description-key="logical name of child entity field to indetify the file" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="FilefieldName" display-name-key="File field logical Name" description-key="File field logical Name" of-type="SingleLine.Text" usage="input" required="true" />    
+    <property name="LookupFieldName" display-name-key="Lookup field Name" description-key="Lookup field logical Name on child entity" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="Count" display-name-key="Max number of file" description-key="Max number of image show in control" of-type="Whole.None" usage="input" required="true" />
+    <property name="Filter" display-name-key="Filter query (from and)" description-key="Query to filter child records (filter already added so start from and(Mid query))" of-type="SingleLine.Text" usage="input" required="false" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="index.css" order="1" />
+    </resources>
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+  </control>
+</manifest>
