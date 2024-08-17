@@ -1,2 +1,29 @@
 # MultiFilePreviewControl
- MultiFilePreviewControl is a PCF control for PowerApps that enhances file management. It allows users to preview images, Excel, CSV, PDFs, GIFs, and videos directly in the parent entity form. The control supports viewing, downloading, and deleting files seamlessly.
+MultiFilePreviewControl is a versatile PCF (PowerApps Component Framework) control designed to enhance file management within PowerApps. This control offers a streamlined interface for previewing various types of files directly in the parent entity form. Users can view, download, and delete images, videos, PDFs, Text and GIFs. Please note that preview functionality is not available for Excel and CSV files, but these can still be downloaded and deleted.
+
+## Key Features
+
+- **File Previews:** View images, videos, PDFs, Text and GIFs directly within the app.
+- **Download & Delete:** Download and delete images, videos, PDFs, GIFs, Excel, and CSV files.
+- **Customizable Display:** Configure the maximum number of files to display and apply filters for file visibility.
+
+## Properties
+
+- **Single:** Single line of text.
+- **recordId:** ID of the current record.
+- **Child Entity logical Name:** Logical name of the child entity containing files.
+- **Child Entity plural logical Name:** Plural logical name of the child entity.
+- **Field name of child entity:** Field used to identify the file on the parent entity.
+- **File field logical Name:** Logical name of the file field in the child entity.
+- **Lookup field Name:** Lookup field logical name on the child entity.
+- **Max number of file:** Maximum number of files to display.
+- **Filter query (from and):** Query to filter child records.
+
+## Usage
+
+(https://github.com/SahilATech/MultiFilePreviewControl/blob/a4b5afb5cf551263018f3dd594b2eb470bd84d4f/MultiFilePreviewControl.gif
+)
+
+`MultiFilePreviewControl` is ideal for applications requiring efficient file management. It simplifies the tasks of viewing, downloading, and deleting files, thereby enhancing the user experience in PowerApps.
+[Managed Solution](https://github.com/SahilATech/MultiFilePreviewControl/raw/eb495d76659bfc627cee7586d789c33760a975e2/Solutions/Solutions_managed.zip
+)
