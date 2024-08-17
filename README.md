@@ -21,7 +21,7 @@ MultiFilePreviewControl is a versatile PCF (PowerApps Component Framework) contr
 
 ## Usage
 
-![MultiselectPcf](https://github.com/SahilATech/MultiFilePreviewControl/blob/a4b5afb5cf551263018f3dd594b2eb470bd84d4f/MultiFilePreviewControl.gif
+![MultiselectPcf](https://github.com/SahilATech/MultiFilePreviewControl/blob/91221d21fe93380c2763aeda6f4da8a851f5fc2c/MultiFilePreviewControl%20(1).gif
 )
 
 `MultiFilePreviewControl` is ideal for applications requiring efficient file management. It simplifies the tasks of viewing, downloading, and deleting files, thereby enhancing the user experience in PowerApps.
