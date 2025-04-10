@@ -1,5 +1,5 @@
 # MultiFilePreviewControl
-MultiFilePreviewControl is a versatile PCF (PowerApps Component Framework) control designed to enhance file management within PowerApps. This control offers a streamlined interface for previewing various types of files directly in the parent entity form. Users can view, download, and delete images, videos, PDFs, Text and GIFs. Please note that preview functionality is not available for Excel and CSV files, but these can still be downloaded and deleted.
+MultiFilePreviewControl is a versatile PCF (PowerApps Component Framework) control designed to enhance file management within PowerApps. This control offers a streamlined interface for previewing various types of files directly in the parent entity form. Users can view, download, and delete images, videos, PDFs, Text and GIFs. Just so you know, preview functionality is not available for Excel and CSV files, but these can still be downloaded and deleted.
 
 ## Key Features
 
@@ -11,12 +11,12 @@ MultiFilePreviewControl is a versatile PCF (PowerApps Component Framework) contr
 
 - **Single:** Single line of text.
 - **recordId:** ID of the current record.
-- **Child Entity logical Name:** Logical name of the child entity containing files.
+- **Child Entity logical Name:** Logical name of the child entity that contains files.
 - **Child Entity plural logical Name:** Plural logical name of the child entity.
-- **Field name of child entity:** Field used to identify the file on the parent entity.
-- **File field logical Name:** Logical name of the file field in the child entity.
+- **Field name of child entity:** Field used to identify the file on the parent entity, this file contains render as a prefix with filename on preview.
+- **File field logical Name:** Logical name of the file field on the child entity.
 - **Lookup field Name:** Lookup field logical name on the child entity.
-- **Max number of file:** Maximum number of files to display.
+- **Max number of files:** Maximum number of files to display.
 - **Filter query (from and):** Query to filter child records.
 
 ## Usage
